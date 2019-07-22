@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VerticalViewPager</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="refresh">松开手刷新视频</string>
+    <string name="quit">松开手退出</string>
+</resources>

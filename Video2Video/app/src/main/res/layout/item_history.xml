@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#66666666">
+
+    <ImageView
+        android:id="@+id/iv_preview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/app_name" />
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_preview"
+        android:layout_toEndOf="@+id/iv_preview"
+        android:textSize="18sp"
+        tools:text="video_title" />
+
+    <TextView
+        android:id="@+id/tv_time_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignStart="@+id/tv_title"
+        android:textSize="12sp"
+        tools:text="play_time" />
+
+    <TextView
+        android:id="@+id/tv_time_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_time_play"
+        android:layout_alignStart="@+id/tv_time_play"
+        android:textSize="12sp"
+        tools:text="thumbs_up_times" />
+
+</RelativeLayout>
